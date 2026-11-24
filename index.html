@@ -300,7 +300,7 @@ function render(t,nim){
   $('emptyState').classList.add('hide');
   ['taskBrief','taskQ','taskRules'].forEach(i=>$(i).classList.remove('hide'));
   $('who').textContent=t.n;
-  $('whoSub').textContent=`NIM ${nim} · Kelas paralel ${t.k}`;
+  $('whoSub').textContent=`NIM ${nim}`;
   $('code').textContent='Kode tugas: '+t.id;
   $('sTitle').textContent=s.t;
   $('sDesc').textContent=s.d;
